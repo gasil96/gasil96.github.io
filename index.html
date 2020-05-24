@@ -11,7 +11,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet">
         <!-- Fonts CSS-->
-        <link rel="stylesheet" href="css/heading.css">
+				<link rel="stylesheet" href="css/heading.css">
+				<link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
     <body id="page-top">
@@ -20,7 +21,7 @@
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFÓLIO</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PROJETOS</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">STACKS</a>
                         </li>
@@ -315,14 +316,100 @@
                     <div class="divider-custom-line"></div>
                 </div>
 								<!-- TODO Colocar Principais Stacks nessa section-->
-								<div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                    </div>
-                </div>
+								<div class="row stack-container no-margin">
+									<ul class="text-center stacks">
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/java.png">
+												<span class="title_sub_tech">Java</span>
+										</li>
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/spring.png">
+												<span class="title_sub_tech">Spring</span>
+										</li>
+										<li class="clip img-circle new">
+												<img src="assets/img/stacks/springboot.png">
+												<span class="title_sub_tech">Spring Boot</span>
+										</li>
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/thymeleaf.png">
+												<span class="title_sub_tech">Thymeleaf</span>
+										</li>
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/hibernate.png">
+											<span class="title_sub_tech">Jpa e Hibernate</span>
+									</li>
+										<li class="clear"></li>
+									</ul>
+									<ul class="text-center stacks">
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/html5.png">
+											<span class="title_sub_tech">HTML5</span>
+										</li>
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/css3.png">
+												<span class="title_sub_tech">CSS3</span>
+										</li>
+										<li class="clip img-circle new">
+											<img src="assets/img/stacks/javascript.png">
+											<span class="title_sub_tech">Javascript</span>
+										</li>
+										<li class="clip img-circle new">
+											<img src="assets/img/stacks/jquery.png">
+											<span class="title_sub_tech">JQuery</span>
+										</li>
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/vue.png">
+												<span class="title_sub_tech">Vue JS</span>
+										</li>
+										<li class="clear"></li>
+									</ul>
+									<ul class="text-center stacks">
+										
+										<li class="clear"></li>
+									</ul>
+									<ul class="text-center stacks">
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/bootstrap.png">
+												<span class="title_sub_tech">Bootstrap</span>
+										</li>
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/dart.png">
+												<span class="title_sub_tech">Dart</span>
+										</li>
+										<li class="clip img-circle new">
+												<img src="assets/img/stacks/flutter.png">
+												<span class="title_sub_tech">Flutter</span>
+										</li>
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/oracle.png">
+												<span class="title_sub_tech">Oracle</span>
+										</li>
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/mysql.png">
+												<span class="title_sub_tech">Mysql</span>
+										</li>
+										<li class="clear"></li>
+									</ul>
+									<ul class="text-center stacks">
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/swagger.png">
+											<span class="title_sub_tech">Swagger</span>
+										</li>
+										<li class="clip img-circle">
+												<img src="assets/img/stacks/heroku.png">
+												<span class="title_sub_tech">Heroku</span>
+										</li>
+										<li class="clip img-circle">
+											<img src="assets/img/stacks/git.png">
+												<span class="title_sub_tech">Git</span>
+										</li>
+										<li class="clip img-circle new">
+												<img src="assets/img/stacks/jhipster.png">
+												<span class="title_sub_tech">JHipster</span>
+										</li>
+										<li class="clear"></li>
+									</ul>
+							</div>
             </div>
         </section>
         <section class="page-section" id="contact">
@@ -349,7 +436,7 @@
                     <div class="col-lg-4">
                         <div class="d-flex flex-column align-items-center">
                             <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
-                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">gasil@gmail.com</a>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">gasil96@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +448,7 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">ENDEREÇO</h4>
-                        <p class="pre-wrap lead mb-0">Alacid Nunes 371, Belém, Pará</p>
+                        <p class="pre-wrap lead mb-0">Alacid Nunes 371, Tenoné, Belém, Pará</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -372,7 +459,7 @@
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
                         <h4 class="mb-4">Sobre Projetos</h4>
-                        <p class="pre-wrap lead mb-0">Alguns projetos </p>
+                        <p class="pre-wrap lead mb-0">Alguns projetos estão com código fonte privado no Github caso deseje analisar o código entre em contato via email ou telefone</p>
                     </div>
                 </div>
             </div>
